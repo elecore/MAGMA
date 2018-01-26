@@ -92,8 +92,8 @@ namespace parameters {
 
 } // parameters
 
-#define CRYPTONOTE_NAME                                 "alloy"
-#define CRYPTONOTE_GENESIS_COINBASE_TX_HEX              "011e01ff00018080a0fef0fa97a43f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101d201f0ee231168072d806ecd2c733bb79286c398aa24d9b0d06d7bfb89d2869d"
+#define CRYPTONOTE_NAME                                 "MAGMA"
+#define CRYPTONOTE_GENESIS_COINBASE_TX_HEX              ""
 
 #define TRANSACTION_VERSION_1                           1
 #define TRANSACTION_VERSION_2                           2
@@ -127,9 +127,8 @@ namespace parameters {
 #define P2P_STAT_TRUSTED_PUB_KEY                        "8f80f9a5a434a9f1510d13336228debfee9c918ce505efe225d8c94d045fa115"
 
 const std::initializer_list<const char*> SEED_NODES {
-  "144.217.165.72:1810",
-  "144.217.165.189:1810",
-  "89.18.26.10:1810",
+  "45.63.0.44:1810",
+  
 };
 
 struct CheckpointData {
