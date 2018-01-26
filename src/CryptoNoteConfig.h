@@ -20,7 +20,7 @@ namespace parameters {
 #define CRYPTONOTE_MAX_BLOCK_NUMBER                     500000000
 #define CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                  500000000
 #define CRYPTONOTE_MAX_TX_SIZE                          1000000000
-#define CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX         54
+#define CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX         0x8
 #define CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW            30
 #define CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT              60 * 60 * 2
 
