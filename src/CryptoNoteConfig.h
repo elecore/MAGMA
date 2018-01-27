@@ -34,7 +34,7 @@ namespace parameters {
 #define ZAWY_DIFFICULTY_V2                              1
 #define ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION        0
 #define EMISSION_SPEED_FACTOR                           20
-#define GENESIS_BLOCK_REWARD                            4560000
+//#define GENESIS_BLOCK_REWARD                            4560000
 
 #define CRYPTONOTE_REWARD_BLOCKS_WINDOW                 100
 #define CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE       100000
